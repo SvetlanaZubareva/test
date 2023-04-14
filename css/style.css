@@ -2091,6 +2091,17 @@ address {
   width: calc(83.3333333333% - 20px);
   margin-right: 10px;
   margin-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  width: 100%;
+
+}
+@media(max-width:765px){
+  .offer__content {
+  display: flex;
+  flex-wrap: wrap;
+  }
 }
 
 .offer__content p strong {
